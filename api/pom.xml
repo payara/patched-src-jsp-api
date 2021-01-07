@@ -39,6 +39,7 @@
     only if the new code is made subject to such option by the copyright
     holder.
 
+    Portions Copyright [2021] [Payara Foundation and/or its affiliates]
 -->
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -51,7 +52,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>javax.servlet.jsp</groupId>
     <artifactId>javax.servlet.jsp-api</artifactId>
-    <version>2.3.3</version>
+    <version>2.3.3.payara-p1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>JavaServer Pages(TM) API</name>
 
@@ -101,10 +102,10 @@
         </mailingList>
     </mailingLists>
     <scm>
-      <connection>scm:git:https://github.com/javaee/javaee-jsp-api.git</connection>
-      <developerConnection>scm:git:ssh://git@github.com/javaee/javaee-jsp-api.git</developerConnection>
-      <url>https://github.com/javaee/javaee-jsp-api</url>
-      <tag>2.3.3</tag>
+      <connection>scm:git:https://github.com/payara/patched-src-jsp-api</connection>
+      <developerConnection>scm:git:ssh://git@github.com/payara/patched-src-jsp-api.git</developerConnection>
+      <url>https://github.com/payara/patched-src-jsp-api</url>
+      <tag>2.3.3.payara-p1</tag>
     </scm>
 
     <build>
